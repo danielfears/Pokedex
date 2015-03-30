@@ -29,6 +29,15 @@
             android:adjustViewBounds="true"
             android:layout_marginTop="50dp"/>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seriestext"
+            android:src="@drawable/seriestext"
+            android:layout_below="@id/slogan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
     </RelativeLayout>
 
     <LinearLayout
@@ -38,7 +47,7 @@
         android:layout_centerHorizontal="true"
         android:orientation="horizontal"
         android:layout_below="@+id/topcontent"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="20dp">
 
         <Button
             android:layout_width="100dp"
@@ -53,13 +62,15 @@
             android:layout_height="100dp"
             android:id="@+id/goldsilver"
             android:layout_alignParentLeft="true"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:background="@drawable/goldsilver"/>
 
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/rubysapp"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:background="@drawable/rubysapp"/>
 
     </LinearLayout>
 
@@ -75,19 +86,23 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/diampearl"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:background="@drawable/diampearl"/>
 
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/blackwhite"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:background="@drawable/blackwhite"/>
 
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/xy"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:background="@drawable/xy"
+            />
 
     </LinearLayout>
 

@@ -3,4 +3,10 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_kanto">KantoActivity</string>
+    <string name="title_activity_johto">JohtoActivity</string>
+    <string name="title_activity_hoenn">HoennActivity</string>
+    <string name="title_activity_sinnoh">SinnohActivity</string>
+    <string name="title_activity_unova">UnovaActivity</string>
+    <string name="title_activity_kalos">KalosActivity</string>
 </resources>

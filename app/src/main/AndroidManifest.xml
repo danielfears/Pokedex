@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".MenuActivity"
             android:label="@string/app_name" >
@@ -15,6 +15,30 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".KantoActivity"
+            android:label="@string/title_activity_kanto" >
+        </activity>
+        <activity
+            android:name=".JohtoActivity"
+            android:label="@string/title_activity_johto" >
+        </activity>
+        <activity
+            android:name=".HoennActivity"
+            android:label="@string/title_activity_hoenn" >
+        </activity>
+        <activity
+            android:name=".SinnohActivity"
+            android:label="@string/title_activity_sinnoh" >
+        </activity>
+        <activity
+            android:name=".UnovaActivity"
+            android:label="@string/title_activity_unova" >
+        </activity>
+        <activity
+            android:name=".KalosActivity"
+            android:label="@string/title_activity_kalos" >
         </activity>
     </application>
 
