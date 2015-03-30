@@ -4,9 +4,12 @@
     tools:context="danielfears.pokedex.KalosActivity"
     android:background="@drawable/background">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kalos"/>
+        android:adjustViewBounds="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/kalos"
+        />
 
 </RelativeLayout>

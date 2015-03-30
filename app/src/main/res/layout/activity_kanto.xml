@@ -5,9 +5,12 @@
     tools:context="danielfears.pokedex.KantoActivity"
     android:background="@drawable/background">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kanto"/>
+        android:src="@drawable/kanto"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="15dp"
+        />
 
 </RelativeLayout>
