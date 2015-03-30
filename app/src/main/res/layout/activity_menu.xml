@@ -3,73 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuActivity"
-    android:background="#ff63acff">
+    android:background="#ffffff">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/logolayout">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/logo"
-            android:src="@drawable/pokemonlogo"
-            android:layout_marginTop="20dp"
-            android:layout_centerHorizontal="true"/>
-
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/slogan"
-            android:layout_below="@+id/logo"
-            android:layout_centerHorizontal="true"/>
-
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/buttonslayout1"
-        android:layout_below="@+id/logolayout"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp">
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:text="Sinnoh"
-            android:id="@+id/sinnoh"/>
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:text="Kanto"
-            android:id="@+id/kanto"
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/buttonslayout2"
-        android:layout_below="@+id/buttonslayout1"
-        android:layout_centerHorizontal="true">
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:text="Johto"
-            android:id="@+id/johto"/>
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:text="Hoenn"
-            android:id="@+id/hoenn"
-            />
-    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/pokedextop2"
+        />
 
 </RelativeLayout>
