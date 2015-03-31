@@ -40,6 +40,14 @@
             android:name=".KalosActivity"
             android:label="@string/title_activity_kalos" >
         </activity>
+        <activity
+            android:name=".CharmanderActivity"
+            android:label="@string/title_activity_charmander" >
+        </activity>
+        <activity
+            android:name=".BulbasaurActivity"
+            android:label="@string/title_activity_bulbasaur" >
+        </activity>
     </application>
 
 </manifest>

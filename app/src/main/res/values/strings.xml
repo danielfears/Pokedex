@@ -9,4 +9,6 @@
     <string name="title_activity_sinnoh">SinnohActivity</string>
     <string name="title_activity_unova">UnovaActivity</string>
     <string name="title_activity_kalos">KalosActivity</string>
+    <string name="title_activity_charmander">CharmanderActivity</string>
+    <string name="title_activity_bulbasaur">BulbasaurActivity</string>
 </resources>

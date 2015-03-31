@@ -10,15 +10,23 @@
         android:layout_height="wrap_content"
         android:src="@drawable/kanto"
         android:adjustViewBounds="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="22dp"
         />
 
-    <SurfaceView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/charmander"
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charmander"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"/>
+        android:layout_marginTop="300dp"
+        android:id="@+id/charmander"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bulbasaur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:id="@+id/bulbasaur"/>
 
 </RelativeLayout>
