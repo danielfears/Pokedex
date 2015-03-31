@@ -7,11 +7,19 @@
 
 
     <SurfaceView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
         android:id="@+id/charmander"
-        android:layout_marginTop="230dp"
-        android:layout_marginLeft="200dp"/>
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/charmanderinfo"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="110dp"/>
 
 
 </RelativeLayout>

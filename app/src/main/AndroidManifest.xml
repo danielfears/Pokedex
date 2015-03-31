@@ -48,6 +48,10 @@
             android:name=".BulbasaurActivity"
             android:label="@string/title_activity_bulbasaur" >
         </activity>
+        <activity
+            android:name=".SquirtleActivity"
+            android:label="@string/title_activity_squirtle" >
+        </activity>
     </application>
 
 </manifest>

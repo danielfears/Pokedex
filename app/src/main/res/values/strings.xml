@@ -11,4 +11,5 @@
     <string name="title_activity_kalos">KalosActivity</string>
     <string name="title_activity_charmander">CharmanderActivity</string>
     <string name="title_activity_bulbasaur">BulbasaurActivity</string>
+    <string name="title_activity_squirtle">SquirtleActivity</string>
 </resources>

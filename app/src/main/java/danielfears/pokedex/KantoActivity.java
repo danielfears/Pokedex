@@ -36,6 +36,16 @@ public class KantoActivity extends ActionBarActivity {
             }
         });
 
+        Button squirtle = (Button) findViewById(R.id.squirtle);
+
+        squirtle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent( KantoActivity.this, SquirtleActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 
 }
