@@ -14,19 +14,48 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Charmander"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
-        android:id="@+id/charmander"/>
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="270dp"
+        android:id="@+id/bulbasaur"
+        android:background="@drawable/bulbasaurbutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bulbasaurimg"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="280dp"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bulbasaur"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
-        android:id="@+id/bulbasaur"/>
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="340dp"
+        android:id="@+id/charmander"
+        android:background="@drawable/charmanderbutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/charanderimg"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="410dp"
+        android:id="@+id/squirtle"
+        android:background="@drawable/squirtlebutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/squirtleimg"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="280dp"/>
 
 </RelativeLayout>
