@@ -1,9 +1,9 @@
 package danielfears.pokedex;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.ActionBarActivity;
+import android.view.SurfaceView;
+import gif.decoder.GifRun;
 
 
 public class KantoActivity extends ActionBarActivity {
@@ -12,6 +12,15 @@ public class KantoActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kanto);
+        SurfaceView v = (SurfaceView) findViewById(R.id.charmander);
+        v.setZOrderOnTop(true);    // necessary
+
+        GifRun w = new  GifRun();
+
+        w.LoadGiff(v, this, R.drawable.charmander);
+
+
+
     }
 
 }
