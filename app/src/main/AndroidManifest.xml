@@ -64,6 +64,30 @@
             android:name=".TotodileActivity"
             android:label="@string/title_activity_totodile" >
         </activity>
+        <activity
+            android:name=".TreeckoActivity"
+            android:label="@string/title_activity_treecko" >
+        </activity>
+        <activity
+            android:name=".TorchicActivity"
+            android:label="@string/title_activity_torchic" >
+        </activity>
+        <activity
+            android:name=".MudkipActivity"
+            android:label="@string/title_activity_mudkip" >
+        </activity>
+        <activity
+            android:name=".TurtwigActivity"
+            android:label="@string/title_activity_turtwig" >
+        </activity>
+        <activity
+            android:name=".ChimcharActivity"
+            android:label="@string/title_activity_chimchar" >
+        </activity>
+        <activity
+            android:name=".PiplupActivity"
+            android:label="@string/title_activity_piplup" >
+        </activity>
     </application>
 
 </manifest>

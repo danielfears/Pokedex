@@ -15,4 +15,10 @@
     <string name="title_activity_chikorita">ChikoritaActivity</string>
     <string name="title_activity_cyndaquil">CyndaquilActivity</string>
     <string name="title_activity_totodile">TotodileActivity</string>
+    <string name="title_activity_treecko">TreeckoActivity</string>
+    <string name="title_activity_torchic">TorchicActivity</string>
+    <string name="title_activity_mudkip">MudkipActivity</string>
+    <string name="title_activity_turtwig">TurtwigActivity</string>
+    <string name="title_activity_chimchar">ChimcharActivity</string>
+    <string name="title_activity_piplup">PiplupActivity</string>
 </resources>

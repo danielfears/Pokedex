@@ -16,7 +16,7 @@
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_marginTop="270dp"
-        android:id="@+id/bulbasaur"
+        android:id="@+id/treecko"
         android:background="@drawable/treeckobutton"
         android:layout_marginLeft="20dp"/>
 
@@ -31,7 +31,7 @@
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_marginTop="340dp"
-        android:id="@+id/charmander"
+        android:id="@+id/torchic"
         android:background="@drawable/torchicbutton"
         android:layout_marginLeft="20dp"/>
 
@@ -46,7 +46,7 @@
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_marginTop="410dp"
-        android:id="@+id/squirtle"
+        android:id="@+id/mudkip"
         android:background="@drawable/mudkipbutton"
         android:layout_marginLeft="20dp"/>
 
