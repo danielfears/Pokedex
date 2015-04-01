@@ -21,4 +21,7 @@
     <string name="title_activity_turtwig">TurtwigActivity</string>
     <string name="title_activity_chimchar">ChimcharActivity</string>
     <string name="title_activity_piplup">PiplupActivity</string>
+    <string name="title_activity_snivy">SnivyActivity</string>
+    <string name="title_activity_tepig">TepigActivity</string>
+    <string name="title_activity_oshawott">OshawottActivity</string>
 </resources>

@@ -88,6 +88,18 @@
             android:name=".PiplupActivity"
             android:label="@string/title_activity_piplup" >
         </activity>
+        <activity
+            android:name=".SnivyActivity"
+            android:label="@string/title_activity_snivy" >
+        </activity>
+        <activity
+            android:name=".TepigActivity"
+            android:label="@string/title_activity_tepig" >
+        </activity>
+        <activity
+            android:name=".OshawottActivity"
+            android:label="@string/title_activity_oshawott" >
+        </activity>
     </application>
 
 </manifest>
