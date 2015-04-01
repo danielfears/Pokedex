@@ -12,4 +12,49 @@
         android:src="@drawable/kalos"
         />
 
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="270dp"
+        android:id="@+id/bulbasaur"
+        android:background="@drawable/chespinbutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/chespinimg"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="340dp"
+        android:id="@+id/charmander"
+        android:background="@drawable/fennekinbutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/fennekinimg"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="410dp"
+        android:id="@+id/squirtle"
+        android:background="@drawable/froakiebutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/froakieimg"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="280dp"/>
+
 </RelativeLayout>

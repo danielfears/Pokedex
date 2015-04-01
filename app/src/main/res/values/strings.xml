@@ -12,4 +12,7 @@
     <string name="title_activity_charmander">CharmanderActivity</string>
     <string name="title_activity_bulbasaur">BulbasaurActivity</string>
     <string name="title_activity_squirtle">SquirtleActivity</string>
+    <string name="title_activity_chikorita">ChikoritaActivity</string>
+    <string name="title_activity_cyndaquil">CyndaquilActivity</string>
+    <string name="title_activity_totodile">TotodileActivity</string>
 </resources>

@@ -52,6 +52,18 @@
             android:name=".SquirtleActivity"
             android:label="@string/title_activity_squirtle" >
         </activity>
+        <activity
+            android:name=".ChikoritaActivity"
+            android:label="@string/title_activity_chikorita" >
+        </activity>
+        <activity
+            android:name=".CyndaquilActivity"
+            android:label="@string/title_activity_cyndaquil" >
+        </activity>
+        <activity
+            android:name=".TotodileActivity"
+            android:label="@string/title_activity_totodile" >
+        </activity>
     </application>
 
 </manifest>

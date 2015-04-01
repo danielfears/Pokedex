@@ -12,4 +12,49 @@
         android:src="@drawable/johto"
         />
 
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="270dp"
+        android:id="@+id/chikorita"
+        android:background="@drawable/chikoritabutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/chikoritaimg"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="340dp"
+        android:id="@+id/cyndaquil"
+        android:background="@drawable/cyndaquilbutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/cyndaquilimg"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="410dp"
+        android:id="@+id/totodile"
+        android:background="@drawable/totodilebutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/totodileimg"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="280dp"/>
+
 </RelativeLayout>

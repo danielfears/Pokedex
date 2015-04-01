@@ -4,7 +4,6 @@
     tools:context="danielfears.pokedex.HoennActivity"
     android:background="@drawable/background">
 
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,5 +11,50 @@
         android:layout_marginTop="22dp"
         android:src="@drawable/hoenn"
         />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="270dp"
+        android:id="@+id/bulbasaur"
+        android:background="@drawable/treeckobutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/treeckoimg"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="340dp"
+        android:id="@+id/charmander"
+        android:background="@drawable/torchicbutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/torchicimg"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="410dp"
+        android:id="@+id/squirtle"
+        android:background="@drawable/mudkipbutton"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/mudkipimg"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="280dp"/>
 
 </RelativeLayout>
