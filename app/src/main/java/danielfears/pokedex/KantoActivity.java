@@ -1,11 +1,14 @@
 package danielfears.pokedex;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.Button;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 import gif.decoder.GifRun;
 
@@ -15,6 +18,7 @@ public class KantoActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kanto);
+
 
         Button charmander = (Button) findViewById(R.id.charmander);
 
@@ -43,9 +47,13 @@ public class KantoActivity extends ActionBarActivity {
             public void onClick(View v) {
                 Intent i = new Intent( KantoActivity.this, SquirtleActivity.class);
                 startActivity(i);
+
             }
+
         });
 
+
     }
+
 
 }

@@ -13,10 +13,17 @@
         android:layout_marginTop="22dp"
         />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/redbluetext"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"/>
+
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="280dp"
         android:id="@+id/bulbasaur"
         android:background="@drawable/bulbasaurbutton"
         android:layout_marginLeft="20dp"/>
@@ -25,13 +32,13 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/bulbasaurimg"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="280dp"
         android:layout_marginLeft="280dp"/>
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="360dp"
         android:id="@+id/charmander"
         android:background="@drawable/charmanderbutton"
         android:layout_marginLeft="20dp"/>
@@ -40,13 +47,13 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/charanderimg"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="360dp"
         android:layout_marginLeft="280dp"/>
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="440dp"
         android:id="@+id/squirtle"
         android:background="@drawable/squirtlebutton"
         android:layout_marginLeft="20dp"/>
@@ -55,7 +62,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/squirtleimg"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="440dp"
         android:layout_marginLeft="280dp"/>
 
 </RelativeLayout>

@@ -47,7 +47,7 @@
         android:layout_centerHorizontal="true"
         android:orientation="horizontal"
         android:layout_below="@+id/topcontent"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="40dp">
 
         <Button
             android:layout_width="100dp"
@@ -80,7 +80,8 @@
         android:orientation="horizontal"
         android:id="@+id/buttoncontainer2"
         android:layout_below="@+id/buttoncontainer"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
 
         <Button
             android:layout_width="100dp"

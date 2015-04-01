@@ -9,13 +9,19 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:layout_marginTop="22dp"
-        android:src="@drawable/johto"
-        />
+        android:src="@drawable/johto"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/goldsilvertext"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="280dp"
         android:id="@+id/chikorita"
         android:background="@drawable/chikoritabutton"
         android:layout_marginLeft="20dp"/>
@@ -24,13 +30,13 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/chikoritaimg"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="280dp"
         android:layout_marginLeft="280dp"/>
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="360dp"
         android:id="@+id/cyndaquil"
         android:background="@drawable/cyndaquilbutton"
         android:layout_marginLeft="20dp"/>
@@ -39,13 +45,13 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/cyndaquilimg"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="360dp"
         android:layout_marginLeft="280dp"/>
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="440dp"
         android:id="@+id/totodile"
         android:background="@drawable/totodilebutton"
         android:layout_marginLeft="20dp"/>
@@ -54,7 +60,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/totodileimg"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="440dp"
         android:layout_marginLeft="280dp"/>
 
 </RelativeLayout>

@@ -9,13 +9,19 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:layout_marginTop="22dp"
-        android:src="@drawable/kalos"
-        />
+        android:src="@drawable/kalos"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xytext"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="280dp"
         android:id="@+id/chespin"
         android:background="@drawable/chespinbutton"
         android:layout_marginLeft="20dp"/>
@@ -24,13 +30,13 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/chespinimg"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="280dp"
         android:layout_marginLeft="280dp"/>
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="360dp"
         android:id="@+id/fennekin"
         android:background="@drawable/fennekinbutton"
         android:layout_marginLeft="20dp"/>
@@ -39,13 +45,13 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/fennekinimg"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="360dp"
         android:layout_marginLeft="280dp"/>
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="440dp"
         android:id="@+id/froakie"
         android:background="@drawable/froakiebutton"
         android:layout_marginLeft="20dp"/>
@@ -54,7 +60,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/froakieimg"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="440dp"
         android:layout_marginLeft="280dp"/>
 
 </RelativeLayout>
