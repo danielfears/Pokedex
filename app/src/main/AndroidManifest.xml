@@ -100,6 +100,18 @@
             android:name=".OshawottActivity"
             android:label="@string/title_activity_oshawott" >
         </activity>
+        <activity
+            android:name=".ChespinActivity"
+            android:label="@string/title_activity_chespin" >
+        </activity>
+        <activity
+            android:name=".FennekinActivity"
+            android:label="@string/title_activity_fennekin" >
+        </activity>
+        <activity
+            android:name=".FroakieActivity"
+            android:label="@string/title_activity_froakie" >
+        </activity>
     </application>
 
 </manifest>

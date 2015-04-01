@@ -24,4 +24,7 @@
     <string name="title_activity_snivy">SnivyActivity</string>
     <string name="title_activity_tepig">TepigActivity</string>
     <string name="title_activity_oshawott">OshawottActivity</string>
+    <string name="title_activity_chespin">ChespinActivity</string>
+    <string name="title_activity_fennekin">FennekinActivity</string>
+    <string name="title_activity_froakie">FroakieActivity</string>
 </resources>
